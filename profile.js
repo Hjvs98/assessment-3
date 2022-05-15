@@ -38,3 +38,9 @@ function selectFave(e) {
 for (let i = 0; i < faveBtns.length; i++) {
   faveBtns[i].addEventListener("click", selectFave);
 }
+
+const sub = document.querySelector(`.glow-on-over`);
+function handleClick(event) {
+  alert("Your Form Has Been Submitted");
+}
+sub.addEventListener("click", handleClick);
