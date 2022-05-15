@@ -1,0 +1,85 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+#top-photo {
+	max-width: 600px;
+}
+.photos300 {
+	max-width: 300px;
+}
+.btns {
+  background-color: yellow;
+  border: medium solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+}
+.collapsible {
+	position: relative;
+	padding-bottom: 0.5em;
+  }
+  .collapsible:not(.open) > * {
+	display: none;
+  }
+  .collapsible:not(.open) > p:first-child {
+	display: block;
+  }
+
+  .collapsible > .toggler {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	background: #ddd;
+	text-align: center;
+	cursor: pointer;
+  }
+  .collapsible > .toggler::after {
+	content: "\25bc";
+  }
+  .collapsible.open > .toggler::after {
+	content: "\25b2";
+  }
+.rest-pics {
+	max-width: 200px;
+	max-height: 200px;
+}
+.rest-text {
+	line-height: 14px ;
+}
+#introduction {
+	text-align: right;
+	
+}
